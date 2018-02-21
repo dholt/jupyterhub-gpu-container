@@ -1,4 +1,4 @@
-FROM nvidia/cuda:9.1-cudnn7-devel-ubuntu16.04
+FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
 
 # corresponds with Helm chart v0.6
 ARG JUPYTERHUB_VERSION=0.8.1
